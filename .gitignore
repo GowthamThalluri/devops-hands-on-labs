@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.*
+
+# Secrets
+*.pem
+*.key
+
+# AWS
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
